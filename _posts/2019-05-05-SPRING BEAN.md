@@ -15,10 +15,11 @@ categories: Spring
 
 * * *
 
-```
+
 [spring docs 일부]
-In Spring, the objects that form the backbone of your application and that are managed by the Spring IoC container are called beans. A bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container. Otherwise, a bean is simply one of many objects in your application. Beans, and the dependencies among them, are reflected in the configuration metadata used by a container.
-```
+
+**In Spring, the objects that form the backbone of your application and that are managed by the Spring IoC container are called beans. A bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container. Otherwise, a bean is simply one of many objects in your application. Beans, and the dependencies among them, are reflected in the configuration metadata used by a container.**
+
 
 - 스프링 빈은 일반적인 자반 객체
 - 스프링 IoC 컨테이너에 의해 생성되고 관리되는 자바 객체를 일반적으로 Bean이라고 함
