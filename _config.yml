@@ -42,6 +42,8 @@ jekyll-archives:
 
 # Disqus comments
 # disqus_shortname: ash2748
+discus-identifier: ash2748-github-io
+
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
