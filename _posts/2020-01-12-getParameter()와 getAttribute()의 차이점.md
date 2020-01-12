@@ -28,7 +28,7 @@ getParameterNames()는 클라이언트에서 보낸 태그의 name 정보를 얻
 
 ##### test.jsp
 
-'''jsp
+``` html
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 
@@ -47,13 +47,13 @@ getParameterNames()는 클라이언트에서 보낸 태그의 name 정보를 얻
 </form>
 </body>
 </html>
-'''
+```
 
 
 
 ###### HomeController.java
 
-'''java
+```java
 
 @Controller
 public class HomeController {
@@ -77,13 +77,13 @@ public class HomeController {
 	}
 }
 
-'''
+```
 
 
 
 ##### requestResult.jsp
 
-'''jsp
+```html
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 
@@ -101,7 +101,7 @@ public class HomeController {
 	</div>
 </body>
 </html>
-'''
+```
 
 
 {% if page.comments %}
